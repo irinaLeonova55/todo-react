@@ -1,3 +1,5 @@
+import trashIcon from '../assets/images/trash.svg';
+
 function Task({ task, deleteTask, toggleCompleted, isActive }) {
   return (
     <li>
@@ -10,7 +12,7 @@ function Task({ task, deleteTask, toggleCompleted, isActive }) {
       </div>
       <img
         className="task__trash"
-        src="/src/assets/images/trash.svg"
+        src={trashIcon}
         onClick={() => deleteTask(task.id)}
       />
     </li>
