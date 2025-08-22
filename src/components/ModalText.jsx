@@ -10,6 +10,7 @@ function ModalText({ value, onChange }) {
         type="text"
         className="modal__text__input"
         placeholder="Write a task"
+        autoComplete="new-password"
         value={value}
         onChange={onChange}
       />
