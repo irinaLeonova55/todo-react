@@ -6,7 +6,7 @@ function ModalText({ value, onChange }) {
       </label>
       <input
         id="text-input"
-        name="text"
+        name="taskInputUnique"
         type="text"
         className="modal__text__input"
         placeholder="Write a task"
